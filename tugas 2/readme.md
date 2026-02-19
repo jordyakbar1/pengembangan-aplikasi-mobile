@@ -13,7 +13,8 @@ NIM: (123140141)
 
 ## Tampilan Utama
 
-![Screenshot 1](Screenshot 2026-02-19 200337.png)
+![Screenshot 1](Screenshot%202026-02-19%20200337.png)
+
 
 
 
