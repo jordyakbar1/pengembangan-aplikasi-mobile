@@ -18,26 +18,24 @@ Aplikasi ini menggunakan **JSONPlaceholder API** untuk tujuan demonstrasi:
 ### 1. Status Berhasil (Daftar Artikel)
 Layar utama menampilkan daftar artikel yang diambil dari API.
 
-![Success State](screenshots/success_state.png)
+![Success State](Screensho090033.png)
 
 ### 2. Status Memuat (Loading)
 Indikator progres melingkar ditampilkan saat data sedang diambil.
 
-![Loading State](screenshots/loading_state.png)
+![Loading State](c:\Users\USER\Pictures\Screenshots\Screenshotrwefrefrere.png)
 
-### 3. Status Error
-Jika data gagal dimuat (misalnya, tidak ada koneksi internet), pesan kesalahan dan tombol coba lagi akan ditampilkan.
-
-![Error State](screenshots/error_state.png)
-
-### 4. Pull-to-Refresh
+### 3. Pull-to-Refresh
 Pengguna dapat menarik daftar ke bawah untuk memperbarui konten.
 
-![Pull to Refresh](screenshots/refresh_state.png)
+![Pull to Refresh](c:\Users\USER\Pictures\Screenshots\Screensho6-04-19190446.png)
 
+### 4. Detail saat di klik
+
+![Klik for detail](c:\Users\USER\Pictures\Screenshots\Screensho26-04-0653.png)
 ## Tech Stack
-- **Compose Multiplatform:** UI framework.
-- **Ktor:** Library jaringan (networking).
-- **Kotlinx Serialization:** Parsing JSON.
-- **Arsitektur MVVM:** Struktur kode yang bersih.
-- **Coil:** Pemuatan gambar (siap untuk dikembangkan lebih lanjut).
+- **Compose Multiplatform:**
+- **Ktor:** Library jaringan
+- **Kotlinx Serialization:**
+- **Arsitektur MVVM:** 
+- **Coil:** Pemuatan gambar 
