@@ -23,16 +23,16 @@ Layar utama menampilkan daftar artikel yang diambil dari API.
 ### 2. Status Memuat (Loading)
 Indikator progres melingkar ditampilkan saat data sedang diambil.
 
-![Loading State](c:\Users\USER\Pictures\Screenshots\Screenshotrwefrefrere.png)
+![Loading State](Screenshotrwefrefrere.png)
 
 ### 3. Pull-to-Refresh
 Pengguna dapat menarik daftar ke bawah untuk memperbarui konten.
 
-![Pull to Refresh](c:\Users\USER\Pictures\Screenshots\Screensho6-04-19190446.png)
+![Pull to Refresh](Screensho6-04-19190446.png)
 
 ### 4. Detail saat di klik
 
-![Klik for detail](c:\Users\USER\Pictures\Screenshots\Screensho26-04-0653.png)
+![Klik for detail](Screensho26-04-0653.png)
 ## Tech Stack
 - **Compose Multiplatform:**
 - **Ktor:** Library jaringan
