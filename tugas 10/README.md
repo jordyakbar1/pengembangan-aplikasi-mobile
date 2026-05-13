@@ -14,8 +14,7 @@ Proyek ini mendemonstrasikan implementasi Dependency Injection (DI) menggunakan 
 ## 📊 Test Coverage Report
 Berikut adalah ringkasan cakupan pengujian untuk logika bisnis (Repository & ViewModel).
 
-![Test Coverage Report](path/to/your/screenshot.png)
-> *Catatan: Pastikan untuk menjalankan "Run Tests with Coverage" di Android Studio dan mengganti path gambar di atas.*
+![alt text](Screensho654320245.png)
 
 **Target Minimal: 60% Business Logic Coverage**
 
@@ -34,14 +33,14 @@ Lokasi: `app/src/test/java/.../data/NoteRepositoryTest.kt`
 - `get note by id`: Memastikan pengambilan data spesifik berdasarkan ID berhasil.
 - `delete note`: Memastikan penghapusan catatan sinkron dengan database.
 - `upsert updates existing note`: Memastikan fungsi `insert` menangani update jika ID sudah ada.
-
+![alt text](Scree2026-lkj0501841.png)
 ### 3. Unit Test: NotesViewModel with MockK (4 Cases)
 Lokasi: `app/src/test/java/.../NoteViewModelTest.kt`
 - `initial state is correct`: Memastikan state awal (loading, network) sesuai.
 - `search query change updates uiState`: Memastikan input pencarian memperbarui state UI.
 - `notes are loaded into state`: Memastikan data dari repository masuk ke state UI.
 - `ai error updates state`: Memastikan kegagalan servis AI tertangkap di state error.
-
+![alt text](Screenshoti026-05-13201747-1.png)
 ### 4. Flow Test with Turbine (2 Cases)
 Terintegrasi dalam `NoteViewModelTest.kt`
 - `uiState.test { ... }`: Mengetes emisi StateFlow saat inisialisasi.
@@ -52,7 +51,7 @@ Lokasi: `app/src/androidTest/java/.../NoteListScreenTest.kt`
 - `testEmptyState`: Memastikan pesan "No notes yet" muncul saat data kosong.
 - `testNotesList`: Memastikan item catatan ditampilkan di layar saat data ada.
 - `testLoadingState`: Memastikan indikator loading (CircularProgressIndicator) muncul saat state loading aktif.
-
+![alt text](Screens026-05-ui.png)
 ---
 
 
